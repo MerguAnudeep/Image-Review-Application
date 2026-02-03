@@ -1,0 +1,14 @@
+body{
+    background-color: chocolate;
+}
+.box{
+    margin-left: 550px;
+    margin-top: 100px;
+    width: 200px;
+    height: 400px;
+    padding: 2em;
+    background-color: chartreuse;
+    color: rebeccapurple;
+    
+}
+

@@ -1,0 +1,28 @@
+#box {
+    display: flex;              /* ⭐ REQUIRED */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center;        */
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+/* #box{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+} */

@@ -1,0 +1,17 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+
+}  */
+  body{
+    background-color: rgb(129, 129, 226); 
+  }
+#Container{
+    margin-left: 550px;
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    padding: 2em;
+    background-color: rgb(233, 149, 205);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+    //<link rel="stylesheet" href="../HeroPage/hero.css">
+</head>
+<body>
+
+<h1>WELCOME</h1>
+
+<p>
+    Upload your outfit image and get opinions from others.
+</p>
+
+<div id="box">
+    <form id="imageForm">
+
+        <!-- <input type="file" id="image" name="image" accept="image/*"> -->
+        <input type="file" id="image" multiple accept="image/*"><br><br>
+
+        <!-- <input type="url" id="URL" name="URL" accept="url"><br><br> -->
+         <input type="url" id="outfitLink" placeholder="Paste outfit link" required>
+
+        <button type="button" onclick="uploadImage()">Upload</button>
+
+    </form>
+</div>
+
+<!-- ✅ Correct JS file -->
+ <script src="../js/config.js"></script>
+<script src="../js/upload.js"></script>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hero.css">
+</head>
+<body>
+    <H1>WELCOME</H1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum recusandae accusamus corrupti quidem fugit culpa inventore fugiat, perferendis enim nihil temporibus voluptate nemo impedit maxime? Numquam, rem! Repellat, voluptatibus.</p>
+    <div id="box">
+        <form id="imageForm">
+
+            <input type="text" id="imagePath" placeholder="Selected image path" readonly>
+
+            <input type="file" id="image" name="image" accept="image/*"><br><br>
+
+            <button type="button" onclick="goToUpload()">Upload</button>
+
+        </form>
+    <script src="../js/upload.js"></script>
+</body>
+</html> -->
